@@ -1,6 +1,6 @@
 {
   "name": "@noor.ahamed/kill-port",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cross-platform CLI to kill process(es) listening on a TCP port",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
