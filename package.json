@@ -1,5 +1,5 @@
 {
-  "name": "kill-port",
+  "name": "@noor/kill-port",
   "version": "1.0.0",
   "description": "Cross-platform CLI to kill process(es) listening on a TCP port",
   "main": "dist/index.js",
