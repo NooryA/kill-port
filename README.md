@@ -5,7 +5,7 @@ Cross-platform CLI to kill process(es) listening on a TCP port. Works on Windows
 ## Install
 
 ```bash
-npm i -g @noor.ahamed/kill-port
+npm i -g "@noor.ahamed/kill-port"
 ```
 
 ## Usage
