@@ -30,6 +30,14 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NooryA/kill-port"
+  },
+  "bugs": {
+    "url": "https://github.com/NooryA/kill-port/issues"
+  },
+  "homepage": "https://github.com/NooryA/kill-port#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^12.1.0",
