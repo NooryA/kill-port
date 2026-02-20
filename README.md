@@ -5,7 +5,7 @@ Cross-platform CLI to kill process(es) listening on a TCP port. Works on Windows
 ## Install
 
 ```bash
-npm i -g @noor/kill-port
+npm i -g @noor.ahamed/kill-port
 ```
 
 ## Usage
@@ -48,7 +48,7 @@ kill-port 3000 --timeout 5000  # Wait up to 5s for port to free
 ## Programmatic use
 
 ```js
-const { findListeners, killListeners, isPortFree } = require("@noor/kill-port");
+const { findListeners, killListeners, isPortFree } = require("@noor.ahamed/kill-port");
 
 const listeners = await findListeners(3000);
 if (listeners.length > 0) {
@@ -75,7 +75,7 @@ Use `--timeout` to wait longer for the port to be released (e.g. `kill-port 3000
 ## Uninstall
 
 ```bash
-npm uninstall -g @noor/kill-port
+npm uninstall -g @noor.ahamed/kill-port
 ```
 
 ## Limitations and safety
