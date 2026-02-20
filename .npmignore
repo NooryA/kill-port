@@ -1,0 +1,9 @@
+src/
+tests/
+*.ts
+tsconfig.json
+.eslintrc.cjs
+eslint.config.js
+.github/
+.git/
+.gitignore
