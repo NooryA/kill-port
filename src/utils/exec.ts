@@ -1,4 +1,4 @@
-import { execa } from "execa";
+import { getExeca } from "../execaLoader";
 
 export interface ExecResult {
   stdout: string;
@@ -11,6 +11,7 @@ export async function exec(
   args: string[],
   options?: { timeout?: number }
 ): Promise<ExecResult> {
+  const execa = await getExeca();
   const result = await execa(cmd, args, {
     timeout: options?.timeout ?? 10000,
     reject: false,
